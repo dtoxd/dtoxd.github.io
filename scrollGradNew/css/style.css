@@ -1,0 +1,54 @@
+.bg {
+	/* Background image and gradient */
+   background: linear-gradient(to bottom, #4a4969 0.1%,#7072ab 2.5%, 
+#ff8566 7%,
+#ffdb4d 10%,
+
+
+#69BFCE 24%,
+#20B6D3 27%,
+#00ADD2 30%, 
+#009FCD 33%,
+#008CBA 36%,
+#0F73A4 39%,
+#1D6397 42%,
+#235B8C 45%,
+#274F80 48%,
+#284572 51%,
+#263D66 54%,
+#23375C 57%,
+#1E3257 60%,
+#182B4C 63%,
+#16284C 66%,
+#cd82a0 85%,
+#7072ab 90%,
+#4a4969 95%,
+#1d4253 100%);
+
+
+
+
+  /* 	#1d4253 90%, #4a4969 93%,#7072ab 96%, #cd82a0 100%);
+  
+	/* 	Background blend mode 
+		 	for blending the image and thegradient.
+ 	 		The blend modes are: 
+				screen, 
+				overlay, 
+				darken, 
+				lighten, 		
+				color-dodge, 
+				color-burn, 
+				hard-light, 
+				soft-light, 			
+				difference, 
+				exclusion, 
+				hue, 
+				saturation, 
+				color, 
+				luminosity. 
+				And also *normal* which reset it.
+				*/
+  background-blend-mode: color-burn;
+  padding-top: 500vw;
+} 
