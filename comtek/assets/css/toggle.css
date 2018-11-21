@@ -1,0 +1,46 @@
+
+
+/*Toggle Demo*/
+
+.demoToggle {
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    top: 35%;
+    right: -220px;
+    width: 220px;
+    height: auto;
+}
+
+.demoToggle .col-sm-12 .demo-item {
+    background: #000;
+    margin-bottom: 10px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.demoToggle .col-sm-12:last-child .demo-item {
+    margin-bottom: 0;
+}
+.demoToggle .demo-item h6 {
+    color: #fff;
+    border: 2px solid #ccc;
+    padding: 5px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border-radius: 50px;
+}
+.demo-switch {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    left: -85px;
+    top: 10px;
+    color: #fff;
+    background: #40e66d;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
